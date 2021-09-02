@@ -58,7 +58,7 @@ border:1px solid rgb(218, 211, 211);
 }
 /*JAVASCRIPT DYNAMIC CSS*/
 .wrapper-js{
-border:1px solid red;
+
 display: flex;
 margin-top:1.5rem;
 padding:1rem;
@@ -95,8 +95,7 @@ width:100%;
 @media only screen and (max-width: 730px) {
     .wrapper-js{
         display: block;
-        border:1px solid red;
-        
+     
         
     }
     .img-details{
@@ -110,7 +109,6 @@ width:100%;
     }
     .aside{
         display:flex;
-        border: 1px solid red;;
         width:100%;
     }
     .aside p{

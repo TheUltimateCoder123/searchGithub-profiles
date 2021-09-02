@@ -5,6 +5,7 @@ document.querySelector('#fname').addEventListener('keyup',(e)=>{
 
 
 instanceOfgithub.fetchUser(e.target.value).then((data)=>{
+
 if(data.fetchedData.message =="Not Found"){
 //Show Alert
    
@@ -12,6 +13,7 @@ if(data.fetchedData.message =="Not Found"){
 else{
 //Show in Window
 ui.uiinfo(data);
+ui.repo(data);
 
 
 
@@ -22,7 +24,7 @@ ui.uiinfo(data);
 
 
 
-
+ui.clearProfile();
 
 
 
